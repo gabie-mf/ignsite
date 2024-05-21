@@ -133,17 +133,17 @@ li {
   .dropdown-content a:hover {background-color: whitesmoke; color: darkgray;}
   
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: none;
   }
 
-  @media (max-width: 600px) {
-    .menuSuperior {display:none;}
-    .leftMenu {display:none;}
+  @media (max-width: 800px) {
+    .menu {display:none;}
     .menuInferior {display:none;}
     .navSuperior {justify-content: left; margin-left: 20px;}
     .conteudo {display: flex; flex-direction: column; flex-wrap:wrap; justify-content: center; align-content: center;}
-    
-
+    .dropdown:hover .dropdown-content {display: block;}
   }
+
+  @media (max-width: 500px) {}
 
 
