@@ -139,7 +139,7 @@ li {
   @media (max-width: 800px) {
     .menu {display:none;}
     .menuInferior {display:none;}
-    .navSuperior {justify-content: left; margin-left: 20px;}
+    .navSuperior {justify-content: space-evenly; margin-left: 20px;}
     .conteudo {display: flex; flex-direction: column; flex-wrap:wrap; justify-content: center; align-content: center;}
     .dropdown:hover .dropdown-content {display: block;}
   }
